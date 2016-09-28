@@ -1,0 +1,27 @@
+bady {
+    background-color: #89D3D4;
+}
+
+
+h1 {
+    color: #BA8ABC;
+    background-color: #EBD89E;
+    font-weight: normal;
+}
+
+
+p {
+    background-color: #666666;
+    color: #ffffff;
+}
+.first-paragraph {
+    font-size: 30px;
+    font-family: "Roboto Slab", "Montserrat", arial. sans-serif;
+    border-left: 12px double pink;
+    border-bottom: 1px solid white;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    padding: 30px;
+    margin: 120px;
+}
