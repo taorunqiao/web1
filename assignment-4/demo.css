@@ -1,0 +1,47 @@
+@import 'https://fonts.googleapis.com/css?family=Bungee+Shade';
+@import 'https://fonts.googleapis.com/css?family=Kavoon';
+@import 'https://fonts.googleapis.com/css?family=Monoton';
+@import 'https://fonts.googleapis.com/css?family=Parisienne';
+@import 'https://fonts.googleapis.com/css?family=Baloo+Paaji';
+
+body {
+    background-color: #3399cc;
+}
+
+.large {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Baloo Paaji', cursive;
+    text-align: center;
+    width: 800px;
+    border: 1px solid yellow;
+    line-height: 2em;
+    text-decoration: underline;
+    transition: color .5s ease;
+}
+
+.smaller {
+    color: #ffffff;
+    font-family: 'Parisienne', cursive;
+}
+
+a {
+    color: #efefef;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0);
+    padding: 10px 20px 10px 20px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin:0 03px;
+    transition: all 2s ease;
+}
+
+a:hover {
+    border: #ffffff;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.large:hover {
+    color: pink;
+}
