@@ -178,7 +178,8 @@ dd {
 .about-list-container {
     border-left: 5px solid #d69e00;
     padding: 20px 50px;
-    margin-bottom:  20px 50px;
+    margin-bottom:50px;
+    
 }
     
     
@@ -200,7 +201,7 @@ dd {
 }
 
 .about-list li {
-    margin: l em auto;
+    margin: lem auto;
 }
 
 
