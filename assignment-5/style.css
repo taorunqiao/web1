@@ -68,8 +68,7 @@ a.hero-card-link:hover{
 /* Main content */
 
 .main-content {
-    padding: 20px;
-    text-align: center;
+  
     margin: 50px auto;
     width: 960px;
 }
@@ -102,8 +101,14 @@ footer {
 .card {
     background-color: #fff;
     border: 1px solid #ddd;
-    width: 300px;
-    margin: 20px auto;
+    width: calc(33.3% - 20px);
+    margin: 10px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+    min-height: 330px;
+    float: left;
+    text-decoration: none;
+    color: #333;
+    transition: all .2s ease;
 }
 
 .card-title {
@@ -113,17 +118,6 @@ footer {
     font-family: Cormorant, cursive;
 }
 
-a.card {
-    background-color: #fff;
-    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
-    width: calc(33.3%);
-    min-height: 310px;
-    margin:10px;
-    float: left;
-    text-decoration: none;
-    color: #333;
-    transition: all 2s ease;
-}
 
 .card:hover {
     transform: scale(1.025);
