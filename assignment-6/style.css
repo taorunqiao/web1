@@ -23,24 +23,33 @@ a:hover {
  
  /* Hero */
 .hero {
-     background-color: #16445f;
+     background-color: #222;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
      text-align: center;
      overflow: auto;
  }
 .hero-card {
-    border: 2px solid #fff;
+    box-shadow: 2px 1px 4px rgba(0,0,0,0.3);
     color: #efefef;
     padding: 50px;
-    width: 800px;
-    margin: 100px auto 50px auto;
+    
+    margin: 100px auto 60px auto;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.73);
+    max-width: 960px;
+    text-align: center;
+    
+    
 }
 .hero-card-title {
-    font-family: georgia, serif;
+    font-family: Cormorant, cursive;
     margin: 0;
     font-size: 50px;
 }
 .hero-card-description {
-    font-family: georgia, serif;
+    font-family: Cormorant, cursive;
     font-size: 30px;
     font-weight: 300;
     margin: 20px 0;
@@ -51,6 +60,9 @@ a:hover {
     font-size: 18px;
     border: 2px solid #efefef;
     padding: 5px 20px;
+    border-radius: 18px;
+    display: inline-block;
+    transition: all 0.2s ease;
 }
 a.hero-card-link {
   text-decoration: none;
@@ -62,6 +74,11 @@ a.hero-card-link {
 a.hero-card-link:hover{
     color: #d69e00;
     border-color: #d69e00;
+}
+
+.hero-card-link: hover {
+    color: #D69E00;
+    border-color: #D69E00;
 }
 
 
@@ -140,38 +157,97 @@ footer {
     padding: 20px;
 }
 
+.search-form {
+    background-color: #ffffff;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.1);
+    padding:40px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    border: 1px solid #ddd;
+    height: 30px;
+    width: 630px;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+button {
+    background-color: #3c8bce;
+    height: 32px;
+    margin-left: 10px;
+    padding: 0 20px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+
 /* Coffee */
 .coffee-quote {
     font-size: 30px;
-    color: #16445f;
+    padding:20px;
+    margin: 20px 15px;
+    border-left: 5px solid #d69e00;
 }
 
-.menu {
-    border: 4px solid #ddd;
-    text-align: left;
-    padding: 20px;
-}
-
-dt {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-dd {
+cite {
+    display: block;
     color: #666;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.menu th {
+    padding:10px;
+}
+
+.menu .size {
+    min-width: 150px;
+    text-align: right;
+    font-size: 14px;
+    
+}
+
+.menu td {
+    padding: 10px 10px;
+    vertical-align: top;
+    text-align: right;
+}
+
+.menu dd {
+    margin-left: 0;
+    color: #666;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.menu .label {
+    text-align: left;
 }
 
 /* Assignment */
 
-.assignment-list {
-    border: 4px solid #ddd;
-    padding: 20px;
-    margin: 20px auto;
-    width: 860px;
+.assignment-list dt {
+    margin-top: 20px;
 }
+
+.assignment-list a {
+    color: #3c8bce;
+    font-size: 18px;
+}
+
+.assignment-list a:hover {
+    color: #115690;
+}
+
+.assignment-list dd {
+    margin-left: 0;
+}
+
 
 /* About */
 
@@ -244,7 +320,7 @@ a.nav-link:hover {
     height: 0;
     color:  rgb(0,0,0,0,);
     padding:60px 160px 0 0;
-    background-position: center
+    background-position: center;
     background-repeat: no-repeat;
     border-radius: 3px;
     transition: all 0.2s ease;
@@ -255,5 +331,23 @@ a.nav-link:hover {
     background-color: rgba(0,0,0,0.4);
 }
 
+#about.hero {
+    background-image:url('images/blueberries.jpg');
+}
 
+#coffee.hero {
+    background-image:url('images/coffee.jpg');
+}
+
+#search.hero {
+    background-image:url('images/sky.jpg');
+}
+
+#assignments.hero {
+    background-image:url('images/coast.jpg');
+}
+
+#home.hero {
+    background-image:url('images/ocean.jpg');
+}
 
