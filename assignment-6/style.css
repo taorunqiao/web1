@@ -5,6 +5,8 @@
 @import 'https://fonts.googleapis.com/css?family=Rubik:300,400,500,700';
 @import 'https://fonts.googleapis.com/css?family=Abril+Fatface';
 @import 'https://fonts.googleapis.com/css?family=Cormorant:300|Roboto: 100i,300,400,400i,700';
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
 
 body {
    font-family: roboto, arial, sans-serif;
@@ -44,7 +46,8 @@ a:hover {
     
 }
 .hero-card-title {
-    font-family: Cormorant, cursive;
+    
+    font-family: 'Poiret One', cursive;
     margin: 0;
     font-size: 50px;
 }
@@ -332,7 +335,7 @@ a.nav-link:hover {
 }
 
 #about.hero {
-    background-image:url('images/blueberries.jpg');
+    background-image:url('images/015.jpg');
 }
 
 #coffee.hero {
@@ -340,11 +343,11 @@ a.nav-link:hover {
 }
 
 #search.hero {
-    background-image:url('images/sky.jpg');
+    background-image:url('images/014.jpg');
 }
 
 #assignments.hero {
-    background-image:url('images/coast.jpg');
+    background-image:url('images/010.jpg');
 }
 
 #home.hero {
