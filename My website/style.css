@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+}
+
+.main-nav {
+    font-family: 'Quicksand';
+    font-size: 37px;
+    text-align: right;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 2000px;
+}
+
+.main-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    overflow: auto;
+    height: 700px;
+    
+}
+
+#about.main-background {
+    background-image:url('images/01.png');
+}
