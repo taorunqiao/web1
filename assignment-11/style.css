@@ -1,0 +1,27 @@
+/*
+  General Styling
+*/
+
+.footer {
+  background-color: #FBF3F4;
+}
+
+
+
+ /* Hero */
+ .hero {
+     background-color: #FBF3F4;
+ }
+ 
+
+ 
+.hero-card {
+    border: 2px solid #fff;
+    padding: 50px;
+    width: 800px;
+    margin: 100px auto 50px auto;
+}
+
+.main-nav {
+ 
+}
