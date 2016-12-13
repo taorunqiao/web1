@@ -30,7 +30,7 @@
 
  /* Hero */
  .hero {
-     background-color: #FBF3F4;
+     background-color: #F8CDCC;
  }
  
 
@@ -75,7 +75,7 @@
     
 a.nav-link {
     box-sizing: border-box;
-    color: #B7979F;
+    color: ＃9E5978;
     text-decoration: none;
     height: 40px;
     line-height: 38px;
@@ -152,7 +152,7 @@ article img:hover {
 /* Footer */
 
 footer {
-    background-color: #B7979F;
+    background-color: #FCEBEF;
     color: #999;
     padding: 10px;
     text-align: center;
@@ -184,6 +184,10 @@ footer {
     font-family: 'Lato:300', cursive;
     color: black;
     margin-left: 680px;
+}
+
+.r-link-next:hover {
+    color: #EEB0CA；
 }
 
 .r-link-next-lotus {
@@ -330,12 +334,17 @@ footer {
 
 ol {
     list-style-type: disc;
+    
+    
 }
 .step {
     margin-top: 700px;
     font-size: 25px;
     line-height: 1.5em;
     margin-bottom: 100px;
+    border-style: double;
+    padding: 30px;
+    border-color: #B7979F;
 }
 
 /* About*/
